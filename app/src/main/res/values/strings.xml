@@ -10,4 +10,8 @@
     <string name="tv_details">View Today\'s Details</string>
     <string name="btn_enter">Enter Income/ Expenses</string>
     <string name="btn_report">Date Wise Report</string>
+    <string name="drop_table_if_exists">DROP TABLE IF EXISTS</string>
+    <string name="et_date">Enter Date\n</string>
+    <string name="et_amount">Enter Amount</string>
+    <string name="btn_submit">Submit</string>
 </resources>
