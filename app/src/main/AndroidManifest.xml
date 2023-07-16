@@ -20,6 +20,7 @@
         </activity>
         <activity android:name=".DataEntry" android:label="Data Entry"/>
         <activity android:name=".ModifyDetails" android:label="Modify Details"/>
+        <activity android:name=".TodayDetails" android:label="Today's Details"/>
     </application>
 
 </manifest>
