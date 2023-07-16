@@ -19,4 +19,6 @@
     <string name="tv_expenses_display">Expenses: %d</string>
     <string name="btn_update">Update</string>
     <string name="btn_delete">Delete</string>
+    <string name="tv_between">Between:</string>
+    <string name="tv_and">and</string>
 </resources>

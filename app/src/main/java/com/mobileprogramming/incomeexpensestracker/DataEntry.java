@@ -8,7 +8,6 @@ import androidx.appcompat.app.AppCompatActivity;
 public class DataEntry extends AppCompatActivity {
     private EditText et_date, et_amount;
     private Spinner s_title;
-    private Button btn_submit;
     private MyDatabase myDatabase;
 
     @Override
@@ -21,7 +20,7 @@ public class DataEntry extends AppCompatActivity {
 
         s_title = findViewById(R.id.s_title);
 
-        btn_submit = findViewById(R.id.btn_submit);
+        Button btn_submit = findViewById(R.id.btn_submit);
 
         myDatabase = new MyDatabase(this);
 

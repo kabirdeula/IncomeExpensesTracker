@@ -14,9 +14,6 @@ public class MainActivity extends AppCompatActivity {
     private TextView tv_income;
     private TextView tv_expenses;
     private TextView tv_balance;
-    private TextView tv_details;
-    private Button btn_enter;
-    private Button btn_report;
     private MyDatabase myDatabase;
 
     @Override
@@ -27,10 +24,10 @@ public class MainActivity extends AppCompatActivity {
         tv_income = findViewById(R.id.tv_income);
         tv_expenses = findViewById(R.id.tv_expenses);
         tv_balance = findViewById(R.id.tv_balance);
-        tv_details = findViewById(R.id.tv_details);
+        TextView tv_details = findViewById(R.id.tv_details);
 
-        btn_enter = findViewById(R.id.btn_enter);
-        btn_report = findViewById(R.id.btn_report);
+        Button btn_enter = findViewById(R.id.btn_enter);
+        Button btn_report = findViewById(R.id.btn_report);
 
         myDatabase = new MyDatabase(this);
 
@@ -73,7 +70,6 @@ public class MainActivity extends AppCompatActivity {
     public static String getCurrentDate(){
         Date date = new Date();
         DateFormat formatter = DateFormat.getDateInstance();
-        String currentDate = formatter.format(date);
-        return currentDate;
+        return formatter.format(date);
     }
 }

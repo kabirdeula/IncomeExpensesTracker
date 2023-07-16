@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".DataEntry" android:label="Data Entry"/>
+        <activity android:name=".DateWiseReport" android:label="Date Wise Report"/>
         <activity android:name=".ModifyDetails" android:label="Modify Details"/>
         <activity android:name=".TodayDetails" android:label="Today's Details"/>
     </application>

@@ -45,15 +45,13 @@ public class MyDatabase extends SQLiteOpenHelper {
     public Cursor selectData(String date){
         SQLiteDatabase database = this.getReadableDatabase();
         String query = "SELECT * FROM " + TABLE_NAME + " WHERE date=?";
-        Cursor cursor = database.rawQuery(query, new String[]{date});
-        return cursor;
+        return database.rawQuery(query, new String[]{date});
     }
 
     public Cursor selectData(String date1, String date2){
         SQLiteDatabase database = this.getReadableDatabase();
         String query = "SELECT * FROM " + TABLE_NAME + " WHERE date BETWEEN ? AND ?";
-        Cursor cursor = database.rawQuery(query, new String[]{date1, date2});
-        return cursor;
+        return database.rawQuery(query, new String[]{date1, date2});
     }
 
     public void updateData(String id, String date, String income, String expenses){

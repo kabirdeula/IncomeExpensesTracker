@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 public class TodayDetails extends Activity {
     RecyclerView rv;
-    RecyclerView.Adapter recyclerAdapter;
+    RecyclerViewAdapter recyclerAdapter;
     RecyclerView.LayoutManager layoutManager;
     MyDatabase myDatabase;
     Cursor cursor;
