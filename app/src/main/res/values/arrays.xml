@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="title">
+        <item>Please Select a Title</item>
         <item>Income</item>
         <item>Expenses</item>
     </string-array>

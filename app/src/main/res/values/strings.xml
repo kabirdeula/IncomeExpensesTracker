@@ -14,4 +14,9 @@
     <string name="et_date">Enter Date\n</string>
     <string name="et_amount">Enter Amount</string>
     <string name="btn_submit">Submit</string>
+    <string name="tv_date">Date: %s</string>
+    <string name="tv_income_display">Income: %d</string>
+    <string name="tv_expenses_display">Expenses: %d</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
 </resources>

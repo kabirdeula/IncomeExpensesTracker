@@ -12,7 +12,6 @@
         android:theme="@style/Theme.Design.Light">
 
         <activity android:name=".MainActivity"
-            android:label="Dashboard"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -20,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".DataEntry" android:label="Data Entry"/>
+        <activity android:name=".ModifyDetails" android:label="Modify Details"/>
     </application>
 
 </manifest>
